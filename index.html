@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Music. Mantra. Meditation.</title>
+<meta name="description" content="Indian classical singing, mantra and meditation with vocal coach Aritri Mondal in Patnem, Goa. Group classes Tue, Thu and Sat, 11am–1pm, plus private sessions.">
+<!-- Link previews (WhatsApp, Instagram, Facebook, X). Replace YOUR-DOMAIN with the real domain in the two URLs below. -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Music. Mantra. Meditation.">
+<meta property="og:title" content="Music. Mantra. Meditation. with Aritri Mondal">
+<meta property="og:description" content="Indian classical singing, mantra and meditation with vocal coach Aritri Mondal in Patnem, Goa. Group classes Tue, Thu and Sat, 11am–1pm, plus private sessions.">
+<meta property="og:url" content="https://YOUR-DOMAIN/">
+<meta property="og:image" content="https://YOUR-DOMAIN/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Aritri singing with a tanpura beside the words Music. Mantra. Meditation.">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#56692b">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;800&family=Red+Hat+Text:ital,wght@0,400;0,500;1,400&family=Tiro+Devanagari+Hindi&family=Cormorant+Garamond:ital,wght@1,500;1,600&display=swap">
+<style>
+/* Layout: poster-derived split hero (olive panel + portrait), then a cream page of short sections; the session runs as a real ordered sequence. */
+:root{
+  --olive:#56692b;      /* her poster green */
+  --olive-deep:#3f4f1d;
+  --cream:#fbf6df;      /* her poster cream */
+  --paper:#fffdf3;
+  --ink:#27301a;        /* olive-biased near-black */
+  --muted:#5f6650;
+  --line:#dcd6b6;
+  --saffron:#c4692a;    /* from the embroidery in the photo, used sparingly */
+  --on-olive:#fbf6df;
+  --wa:#1f7a4a;
+  --f-display:"Red Hat Display",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-body:"Red Hat Text",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-script:"Cormorant Garamond","Iowan Old Style",Georgia,serif;
+  --f-deva:"Tiro Devanagari Hindi","Noto Serif Devanagari","Mangal",serif;
+  /* button colours stay fixed in both themes so text always reads */
+  --btn-light:#fbf6df;--btn-ink:#2f3c14;--wa-solid:#1c6e43;
+  --gutter:clamp(16px,5vw,56px);
+  --max:1120px;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --olive:#3b4a1b;--olive-deep:#2c3814;--cream:#1b2012;--paper:#232a17;--ink:#ece8cf;--muted:#b4b399;--line:#3c4528;--saffron:#e08a4c;--on-olive:#f3eed2;--wa:#3fae74;color-scheme:dark}}
+:root[data-theme="dark"]{
+  --olive:#3b4a1b;--olive-deep:#2c3814;--cream:#1b2012;--paper:#232a17;--ink:#ece8cf;--muted:#b4b399;--line:#3c4528;--saffron:#e08a4c;--on-olive:#f3eed2;--wa:#3fae74;color-scheme:dark}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{background:var(--cream);color:var(--ink);font:400 1.0625rem/1.65 var(--f-body);margin:0}
+.wrap{max-width:var(--max);margin-inline:auto;padding-inline:var(--gutter)}
+h1,h2,h3{font-family:var(--f-display);line-height:1.08;text-wrap:balance;margin:0}
+p{margin:0}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--saffron);outline-offset:3px;border-radius:4px}
+.label{font:700 .78rem/1 var(--f-display);letter-spacing:.14em;text-transform:uppercase;color:var(--saffron)}
+
+/* Nav */
+.nav{background:var(--olive);color:var(--on-olive);position:sticky;top:env(safe-area-inset-top,0px);z-index:20;box-shadow:0 1px 0 color-mix(in srgb,var(--on-olive) 14%,transparent)}
+section{scroll-margin-top:72px}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:18px;flex-wrap:wrap}
+.brand{font:800 1rem/1.2 var(--f-display);letter-spacing:.06em;text-transform:uppercase;text-decoration:none;display:flex;align-items:baseline;flex-wrap:wrap;gap:0 10px}
+.brand .with{font:italic 600 1.3rem/1 var(--f-script);letter-spacing:0;text-transform:none}
+.nav ul{display:flex;gap:clamp(14px,3vw,28px);list-style:none;margin:0;padding:0;font:500 .95rem/1 var(--f-display)}
+.nav ul a{text-decoration:none;opacity:.85}
+.nav ul a:hover{opacity:1;text-decoration:underline;text-underline-offset:4px}
+
+/* Hero */
+.hero{background:var(--olive);color:var(--on-olive);padding-bottom:clamp(40px,7vw,80px)}
+.hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(28px,5vw,64px);align-items:end;padding-top:clamp(28px,5vw,56px)}
+.hero h1{font-weight:800;font-size:clamp(2.6rem,7.4vw,5.6rem);letter-spacing:-.01em;text-transform:uppercase;line-height:.98}
+.deva{font-family:var(--f-deva);font-size:clamp(1.25rem,2.4vw,1.7rem);margin-top:18px;opacity:.85}
+.hero .lede{font-size:clamp(1.15rem,1.9vw,1.4rem);max-width:30ch;margin-top:28px;line-height:1.45}
+.h1-with{display:block;font:italic 500 clamp(2.2rem,5.6vw,4.2rem)/1 var(--f-script);text-transform:none;letter-spacing:0;margin-top:.12em}
+.hero .where{margin-top:12px;font:500 .95rem/1.4 var(--f-display);letter-spacing:.04em;opacity:.9}
+.cta-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+.btn{display:inline-flex;align-items:center;gap:10px;font:700 1rem/1 var(--f-display);text-decoration:none;padding:15px 22px;border-radius:999px;border:2px solid transparent;transition:transform .15s ease}
+.btn:hover{transform:translateY(-1px)}
+.btn-wa{background:var(--btn-light);color:var(--btn-ink)}
+.btn-ghost{border-color:currentColor;color:var(--on-olive)}
+.btn svg{width:20px;height:20px;flex:none}
+.portrait{position:relative;min-width:0}
+.portrait img{display:block;width:100%;max-width:100%;aspect-ratio:624/908;object-fit:cover;border-radius:2px}
+/* tanpura strings: four drone lines running beside the photo */
+.strings{position:absolute;top:8%;bottom:8%;left:-22px;display:flex;gap:5px}
+.strings i{display:block;width:1px;background:var(--on-olive);opacity:.45}
+.strings i:nth-child(2){opacity:.6}
+
+/* Sections */
+section{padding-block:clamp(56px,9vw,104px)}
+.sec-head{display:grid;gap:12px;margin-bottom:clamp(28px,4vw,44px);max-width:60ch}
+.sec-head h2{font-weight:800;font-size:clamp(1.9rem,4vw,2.8rem);color:var(--olive-deep)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .sec-head h2{color:var(--ink)}}
+:root[data-theme="dark"] .sec-head h2{color:var(--ink)}
+
+/* Learn */
+.learn{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:1px;background:var(--line);border:1px solid var(--line)}
+.learn div{background:var(--paper);padding:26px 24px;display:grid;gap:8px;align-content:start}
+.learn h3{font-size:1.2rem;font-weight:700}
+.learn em{font-family:var(--f-deva);font-style:normal;color:var(--saffron);font-size:1.05rem}
+.learn p{color:var(--muted);font-size:.98rem}
+
+/* About */
+.about{background:var(--paper);border-block:1px solid var(--line)}
+.about .wrap{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(28px,6vw,80px);align-items:start}
+.about .big{font:500 clamp(1.4rem,2.6vw,1.9rem)/1.3 var(--f-display);color:var(--olive-deep);text-wrap:balance}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .about .big{color:var(--ink)}}
+:root[data-theme="dark"] .about .big{color:var(--ink)}
+.about .copy{display:grid;gap:18px;max-width:62ch;min-width:0}
+.facts{display:grid;grid-template-columns:repeat(2,1fr);max-width:420px;gap:16px;margin-top:8px}
+.facts div{border-top:2px solid var(--olive);padding-top:12px}
+.facts b{display:block;font:800 1.9rem/1 var(--f-display);font-variant-numeric:tabular-nums}
+.facts span{font-size:.9rem;color:var(--muted)}
+
+/* Session sequence */
+.flow{list-style:none;margin:0;padding:0;display:grid;gap:0;counter-reset:s;max-width:820px}
+.flow li{display:grid;grid-template-columns:3.2rem 1fr auto;gap:18px;align-items:baseline;padding:20px 0;border-bottom:1px solid var(--line)}
+.flow li:first-child{border-top:1px solid var(--line)}
+.flow li::before{counter-increment:s;content:counter(s,decimal-leading-zero);font:700 .95rem/1 var(--f-display);color:var(--saffron);font-variant-numeric:tabular-nums}
+.flow h3{font-size:1.15rem;font-weight:700}
+.flow p{color:var(--muted);font-size:.97rem;margin-top:4px}
+.flow .t{font:500 .9rem/1 var(--f-display);color:var(--muted);white-space:nowrap;font-variant-numeric:tabular-nums}
+.note{margin-top:22px;color:var(--muted);font-size:.97rem;max-width:62ch}
+
+/* Classes */
+.classes{background:var(--olive);color:var(--on-olive)}
+.classes .sec-head h2{color:var(--on-olive)}
+.classes .label{color:var(--cream);opacity:.8}
+.cgrid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,4vw,48px);align-items:start}
+.when{display:grid;gap:22px;min-width:0}
+.days{display:flex;flex-wrap:wrap;gap:8px}
+.days span{font:700 .95rem/1 var(--f-display);padding:11px 14px;border:1.5px solid color-mix(in srgb,var(--on-olive) 35%,transparent);border-radius:4px;opacity:.5}
+.days span.on{opacity:1;background:var(--btn-light);color:var(--btn-ink);border-color:var(--btn-light)}
+.time{font:800 clamp(2rem,4.5vw,3rem)/1 var(--f-display);font-variant-numeric:tabular-nums}
+.when p{max-width:44ch;opacity:.9}
+.when .where-c{font:500 1.05rem/1.3 var(--f-display);opacity:1}
+.prices{background:var(--paper);color:var(--ink);border-radius:4px;padding:8px 24px;min-width:0}
+.prices table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+.prices th{font:700 .75rem/1 var(--f-display);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);text-align:left;padding:16px 0 10px}
+.prices th:not(:first-child),.prices td:not(:first-child){text-align:right}
+.prices td{padding:16px 0;border-top:1px solid var(--line)}
+.prices td:first-child{font:700 1.05rem/1.2 var(--f-display)}
+.prices td:nth-child(2){font:800 1.4rem/1 var(--f-display)}
+.prices td:nth-child(3){color:var(--muted);font-size:.92rem;padding-left:12px}
+.prices tr.private td{font:500 .95rem/1.3 var(--f-body);color:var(--muted)}
+.prices tr.private td:first-child{font:700 1.05rem/1.2 var(--f-display);color:var(--ink)}
+.prices small{display:block;font:400 .85rem/1.3 var(--f-body);color:var(--muted);margin-top:4px}
+.prices .fine{border-top:1px solid var(--line);padding:14px 0 16px;font-size:.88rem;color:var(--muted);display:grid;gap:6px}
+
+/* Contact */
+.contact .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(28px,5vw,64px);align-items:center}
+.contact h2{font-weight:800;font-size:clamp(2rem,4.5vw,3.2rem);color:var(--olive-deep)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .contact h2{color:var(--ink)}}
+:root[data-theme="dark"] .contact h2{color:var(--ink)}
+.contact p{margin-top:14px;max-width:46ch;color:var(--muted)}
+.contact .btn-wa{background:var(--wa-solid);color:#fff;margin-top:26px}
+.num{display:grid;gap:8px;padding:28px;border:1px solid var(--line);background:var(--paper);border-radius:4px;min-width:0}
+.num b{font:800 clamp(1.5rem,3.4vw,2rem)/1.1 var(--f-display);font-variant-numeric:tabular-nums;user-select:all;overflow-wrap:anywhere}
+.num span{font-size:.92rem;color:var(--muted)}
+.copy-btn{justify-self:start;margin-top:6px;font:600 .9rem/1 var(--f-display);background:none;border:1.5px solid var(--line);color:var(--ink);padding:10px 14px;border-radius:999px;cursor:pointer}
+.copy-btn:hover{border-color:var(--olive)}
+.num .ig-label{margin-top:18px;padding-top:16px;border-top:1px solid var(--line)}
+.num .ig{font:700 1.15rem/1.2 var(--f-display);color:var(--ink);text-underline-offset:4px;overflow-wrap:anywhere}
+footer a{text-underline-offset:3px}
+
+footer{background:var(--olive-deep);color:var(--on-olive);padding-block:28px;font-size:.9rem}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;opacity:.85}
+
+@media (max-width:820px){
+  .hero .wrap,.about .wrap,.cgrid,.contact .wrap{grid-template-columns:1fr}
+  .portrait{max-width:440px}
+  .strings{display:none}
+  .flow li{grid-template-columns:2.4rem 1fr}
+  .flow .t{grid-column:2}
+}
+@media (max-width:480px){
+  .facts{grid-template-columns:1fr 1fr}
+  .nav ul{display:none}
+}
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top"><span>Music · Mantra · Meditation</span><span class="with">with Aritri</span></a>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#learn">What You'll Learn</a></li>
+      <li><a href="#session">Session Structure</a></li>
+      <li><a href="#classes">Schedule &amp; Fees</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="top">
+  <div class="hero">
+    <div class="wrap">
+      <div>
+        <h1>Music.<br>Mantra.<br>Meditation.</h1>
+        <p class="deva" lang="hi">संगीत · मंत्र · ध्यान</p>
+        <p class="lede">Ready to slow down, tune in and find your inner harmony?</p>
+        <p class="where">Aritri Mondal · Vocal coach · In person in Patnem, Goa</p>
+        <div class="cta-row">
+          <a class="btn btn-wa" href="https://wa.me/918017718173?text=Hi%20Aritri%2C%20I%27d%20like%20to%20know%20more%20about%20Music.%20Mantra.%20Meditation." target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.4-.3Z"/></svg>
+            Message on WhatsApp
+          </a>
+          <a class="btn btn-ghost" href="#classes">Group classes &amp; fees</a>
+        </div>
+      </div>
+      <figure class="portrait" style="margin:0">
+        <div class="strings" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+        <img src="aritri.jpg" alt="Aritri singing with eyes closed, playing a tanpura" width="624" height="908">
+      </figure>
+    </div>
+  </div>
+
+  <section id="about" class="about">
+    <div class="wrap">
+      <p class="big">A vocal coach trained in the Agra Gharana lineage of Hindustani classical music.</p>
+      <div class="copy">
+        <p>I am a vocal coach and music teacher trained in North Indian (Hindustani) classical music under the lineage of the Agra Gharana. I trained for more than 10 years and have been teaching since 2020. I am also a certified Reiki healer, a Vipassana practitioner and a former dentist.</p>
+        <p>The sessions I've designed draw on Shastriya Sangeet, Dhyana and my ongoing study of mantras. Blending all three increases your concentration and awareness, so you capture and remember lessons with ease and practise better on your own.</p>
+        <div class="facts">
+          <div><b>10+</b><span>years of training</span></div>
+          <div><b>2020</b><span>teaching since</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="learn">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="label">What you'll learn</span>
+        <h2>Classical music as a practice for the voice and the mind</h2>
+      </div>
+      <div class="learn">
+        <div><em lang="hi">राग · ताल</em><h3>Raaga and taala</h3><p>Indian musical scales and rhythms, from the ground up.</p></div>
+        <div><em lang="hi">गायन</em><h3>Singing and composing</h3><p>Build your voice, then learn to set your own melodies.</p></div>
+        <div><em lang="hi">मंत्र</em><h3>Mantras, pronounced properly</h3><p>Correct pronunciation of mantras and mahamantras.</p></div>
+        <div><em lang="hi">ध्यान</em><h3>Awareness and concentration</h3><p>Practices that deepen awareness and help lessons stay with you.</p></div>
+        <div><em lang="hi">आनापान</em><h3>Sitting in silence</h3><p>Anapana: learning to sit with yourself, breath by breath.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="session">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="label">Session structure</span>
+        <h2>How a session unfolds</h2>
+        <p style="color:var(--muted)">Each session runs for between 90 minutes and 2 hours.</p>
+      </div>
+      <ol class="flow">
+        <li><div><h3>Meditation</h3><p>Settle in and arrive.</p></div><span class="t">5–9 min</span></li>
+        <li><div><h3>Beeja mantra chant</h3><p>Seed syllables to activate the chakras.</p></div></li>
+        <li><div><h3>Invocation</h3><p>An invocation or prayer opens the main session.</p></div></li>
+        <li><div><h3>Vocal technique and raaga</h3><p>Voice work, with raaga practice once beginner level is complete.</p></div></li>
+        <li><div><h3>Closing mantra</h3><p>A simple mantra, or a more complex one if you're an enthusiast, with an invocation.</p></div></li>
+        <li><div><h3>Silence</h3><p>One minute of stillness to close.</p></div><span class="t">1 min</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="classes" class="classes">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="label">Group classes · recommended for beginners</span>
+        <h2>Light, fun, educational</h2>
+      </div>
+      <div class="cgrid">
+        <div class="when">
+          <div class="days" aria-label="Class days: Tuesday, Thursday and Saturday">
+            <span>Mon</span><span class="on">Tue</span><span>Wed</span><span class="on">Thu</span><span>Fri</span><span class="on">Sat</span><span>Sun</span>
+          </div>
+          <p class="time">11 am – 1 pm</p>
+          <p class="where-c"><b>In person</b> · Patnem, Goa</p>
+          <p>We learn by practising, listening to other students and interacting with each other. Attend back to back, twice a week or once a week, whatever suits you.</p>
+        </div>
+        <div class="prices">
+          <table>
+            <thead><tr><th>Pack</th><th>Fee</th><th>Per class</th></tr></thead>
+            <tbody>
+              <tr><td>Single class</td><td>₹1,000</td><td>₹1,000</td></tr>
+              <tr><td>4 classes</td><td>₹3,000</td><td>₹750</td></tr>
+              <tr><td>8 classes</td><td>₹5,000</td><td>₹625</td></tr>
+              <tr class="private"><td>Private session</td><td colspan="2">Message for availability and fees</td></tr>
+            </tbody>
+          </table>
+          <div class="fine">
+            <span>Sessions are booked once payment is complete.</span>
+            <span>Refunds are offered only within 2 days after your first session.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="wrap">
+      <div>
+        <span class="label">Book or ask a question</span>
+        <h2 style="margin-top:12px">Every raaga begins with Sa</h2>
+        <p>Sa is the first note of every scale, and your first lesson starts with one message. Classes are in person in the Patnem area, Goa. Write on WhatsApp for group bookings, private sessions or anything else you'd like to know.</p>
+        <a class="btn btn-wa" href="https://wa.me/918017718173?text=Hi%20Aritri%2C%20I%27d%20like%20to%20know%20more%20about%20Music.%20Mantra.%20Meditation." target="_blank" rel="noopener">Open WhatsApp chat</a>
+      </div>
+      <div class="num">
+        <span>WhatsApp</span>
+        <b id="phone">+91 80177 18173</b>
+        <button class="copy-btn" id="copy" type="button">Copy number</button>
+        <span class="ig-label">Instagram</span>
+        <a class="ig" href="https://www.instagram.com/everybody.s.me/" target="_blank" rel="noopener">@everybody.s.me</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Music. Mantra. Meditation. with Aritri</span>
+    <span>Vocal coach · Patnem, Goa, India · <a href="https://www.instagram.com/everybody.s.me/" target="_blank" rel="noopener">Instagram</a></span>
+  </div>
+</footer>
+
+<script>
+document.getElementById('copy').addEventListener('click',function(){
+  var b=this,t='+918017718173';
+  function done(){b.textContent='Copied';setTimeout(function(){b.textContent='Copy number'},1800)}
+  function fallback(){var r=document.createRange();r.selectNodeContents(document.getElementById('phone'));var s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent='Selected, press Ctrl+C'}
+  try{navigator.clipboard.writeText(t).then(done,fallback)}catch(e){fallback()}
+});
+</script>
+</body>
+</html>
