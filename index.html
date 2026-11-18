@@ -5,13 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Music. Mantra. Meditation.</title>
 <meta name="description" content="Indian classical singing, mantra and meditation with vocal coach Aritri Mondal in Patnem, Goa. Group classes Tue, Thu and Sat, 11am–1pm, plus private sessions.">
-<!-- Link previews (WhatsApp, Instagram, Facebook, X). Replace YOUR-DOMAIN with the real domain in the two URLs below. -->
+<!-- Link previews (WhatsApp, Instagram, Facebook, X). -->
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Music. Mantra. Meditation.">
 <meta property="og:title" content="Music. Mantra. Meditation. with Aritri Mondal">
 <meta property="og:description" content="Indian classical singing, mantra and meditation with vocal coach Aritri Mondal in Patnem, Goa. Group classes Tue, Thu and Sat, 11am–1pm, plus private sessions.">
-<meta property="og:url" content="https://YOUR-DOMAIN/">
-<meta property="og:image" content="https://YOUR-DOMAIN/og-image.jpg">
+<meta property="og:url" content="https://aritrivoice.in/">
+<meta property="og:image" content="https://aritrivoice.in/og-image.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Aritri singing with a tanpura beside the words Music. Mantra. Meditation.">
@@ -126,6 +126,20 @@ section{padding-block:clamp(56px,9vw,104px)}
 .flow .t{font:500 .9rem/1 var(--f-display);color:var(--muted);white-space:nowrap;font-variant-numeric:tabular-nums}
 .note{margin-top:22px;color:var(--muted);font-size:.97rem;max-width:62ch}
 
+/* Six months milestone */
+.milestone{background:var(--paper);border-block:1px solid var(--line)}
+.milestone .wrap{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,6vw,80px);align-items:center}
+.milestone h2{font-weight:800;font-size:clamp(1.9rem,4vw,2.8rem);color:var(--olive-deep)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .milestone h2{color:var(--ink)}}
+:root[data-theme="dark"] .milestone h2{color:var(--ink)}
+.milestone .copy{display:grid;gap:16px;max-width:46ch;min-width:0}
+.milestone .copy p{color:var(--muted)}
+.milestone .ig-link{justify-self:start;font:700 1rem/1.2 var(--f-display);color:var(--olive-deep);text-underline-offset:4px}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .milestone .ig-link{color:var(--ink)}}
+:root[data-theme="dark"] .milestone .ig-link{color:var(--ink)}
+.ig-embed{display:flex;justify-content:center;min-width:0}
+.ig-embed .instagram-media{max-width:100%!important}
+
 /* Classes */
 .classes{background:var(--olive);color:var(--on-olive)}
 .classes .sec-head h2{color:var(--on-olive)}
@@ -171,7 +185,7 @@ footer{background:var(--olive-deep);color:var(--on-olive);padding-block:28px;fon
 footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;opacity:.85}
 
 @media (max-width:820px){
-  .hero .wrap,.about .wrap,.cgrid,.contact .wrap{grid-template-columns:1fr}
+  .hero .wrap,.about .wrap,.milestone .wrap,.cgrid,.contact .wrap{grid-template-columns:1fr}
   .portrait{max-width:440px}
   .strings{display:none}
   .flow li{grid-template-columns:2.4rem 1fr}
@@ -192,6 +206,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;
       <li><a href="#about">About</a></li>
       <li><a href="#learn">What You'll Learn</a></li>
       <li><a href="#session">Session Structure</a></li>
+      <li><a href="#six-months">6 Months</a></li>
       <li><a href="#classes">Schedule &amp; Fees</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
@@ -269,6 +284,25 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;
     </div>
   </section>
 
+  <section id="six-months" class="milestone">
+    <div class="wrap">
+      <div class="copy">
+        <span class="label">A milestone</span>
+        <h2>Six months of Music. Mantra. Meditation.</h2>
+        <p>Six months of singing, chanting and sitting in silence together. Thank you to everyone who has joined a session, and to those who are about to.</p>
+        <a class="ig-link" href="https://www.instagram.com/p/DfY4R_hBy04/" target="_blank" rel="noopener">See the post on Instagram</a>
+      </div>
+      <div class="ig-embed">
+        <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/DfY4R_hBy04/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:1px auto; max-width:540px; min-width:280px; padding:0; width:calc(100% - 2px);">
+          <div style="padding:16px;">
+            <a href="https://www.instagram.com/p/DfY4R_hBy04/?utm_source=ig_embed&amp;utm_campaign=loading" target="_blank" rel="noopener" style="color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-weight:550; text-decoration:none;">View this post on Instagram</a>
+            <p style="margin:8px 0 0; font-family:Arial,sans-serif; font-size:14px;"><a href="https://www.instagram.com/p/DfY4R_hBy04/?utm_source=ig_embed&amp;utm_campaign=loading" target="_blank" rel="noopener" style="color:#888; text-decoration:none;">A post shared by ARITRI (@everybody.s.me)</a></p>
+          </div>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
   <section id="classes" class="classes">
     <div class="wrap">
       <div class="sec-head">
@@ -337,5 +371,6 @@ document.getElementById('copy').addEventListener('click',function(){
   try{navigator.clipboard.writeText(t).then(done,fallback)}catch(e){fallback()}
 });
 </script>
+<script async src="//www.instagram.com/embed.js"></script>
 </body>
 </html>
